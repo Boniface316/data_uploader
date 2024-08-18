@@ -1,0 +1,1 @@
+For each trial `airadar_block` created, a separate folder must be created. Additionally, for each block, there must be an accompanying metadata folder.

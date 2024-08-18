@@ -1,0 +1,16 @@
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "{{cookiecutter.trial_name}}"
+version = "0.1.0"
+description = "{{cookiecutter.project_description}}"
+authors = ["Your Name <your@email.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+google = "^3.0.0"
+google-cloud-storage = "^2.18.2"
+inquirer = "^2.7.0"
+pyyaml = "^6.0.2"
